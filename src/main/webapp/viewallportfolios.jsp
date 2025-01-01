@@ -6,16 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View All Portfolios</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
     <style>
         table {
-            width: 100%;
+            width: 95%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 25px;
             font-size: 18px;
             text-align: left;
         }
         th, td {
-            padding: 12px;
+            padding: 20px;
             border: 1px solid #ddd;
         }
         th {
@@ -24,28 +25,16 @@
         tr:hover {
             background-color: #f1f1f1;
         }
-        .btn {
-            text-decoration: none;
-            color: white;
-            background-color: #007bff;
-            padding: 5px 10px;
-            border-radius: 4px;
-            display: inline-block;
-        }
         .btn:hover {
             background-color: #0056b3;
-        }
-        .actions a {
-            margin-right: 5px;
         }
     </style>
 </head>
 <body>
-<div class="rig-contt">
-<h1 align="center"><u>All Portfolios</u></h1>
-
+<%@ include file="facnavbar.jsp" %>
+<div class="rig-conttt">
+<h2 align="center"><u>All Portfolios</u></h2>
 <br>
-
     <table>
         <tr>
             <th>Portfolio ID</th>
@@ -68,7 +57,6 @@
         </c:otherwise>
     </c:choose>
 </td>
-
             </tr>
         </c:forEach>
     </table>

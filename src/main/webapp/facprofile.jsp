@@ -14,12 +14,13 @@ if(fac==null)
 <head>
 <meta charset="UTF-8">
 <title>Faculty Home</title>
+<link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <%@include file="facnavbar.jsp" %>
 <div class="rig-contt">
-  <h3 style="margin-left: 280px; margin-bottom: 50px;"><u>My Profile</u></h3>
+  <h3 style="margin-left: 300px; margin-bottom: 30px;"><u>My Profile</u></h3>
 
 <div class="cardd">
 <pre>
@@ -31,7 +32,7 @@ if(fac==null)
            <b>LOCATION:</b><%=fac.getLocation()%><br>
            <b>EMAIL:</b><%=fac.getEmail()%><br>
            <b>CONTACT:</b><%=fac.getContact()%><br>
-           <b>STATUS:</b><%=fac.getStatus()%><br>
+           <b>STATUS:</b><%=fac.getStatus()%>
            </pre>
 </div>
 </div>

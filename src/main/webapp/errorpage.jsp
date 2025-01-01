@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Error Page</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
     <style>
         body {
             font-family: Arial, sans-serif;

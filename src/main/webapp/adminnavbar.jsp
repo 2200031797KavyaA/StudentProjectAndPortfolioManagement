@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Spring Boot</title>
+    <title>Admin</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
-    <div class="lef-cont">
-    <div class="logohome">
-       <a href="/"><img src="/images/logo.jpg" alt="Portfolyx" class="logohome"></a>
-    </div>
-    <div class="contt">
-    <br/><br/>
-    <a href="adminhome">Home</a><br/><br/><br/>
-    <a href="facreg" style="padding-left: 10px;
-	padding-right: 10px;">Faculty Registration</a><br/><br/><br/>
-    <a href="viewallfacs" style="padding-left: 22px;
-	padding-right: 22px;">View All Faculties</a><br/><br/><br/>
-    <a href="deletefac" style="padding-left: 38px;
-	padding-right: 38px;">Delete Faculty</a><br/><br/><br/>
-    <a href="updatefacstatus" style="padding-left: 10px;
-	padding-right: 10px;">Update Faculty Status</a><br/><br/><br/>
-    <a href="adminlogout">Logout</a><br/><br/><br/>
-    </div>
-    </div>
+<nav id="navbar">
+          <div class="logo">
+             <a href="/"><img src="/images/logo.jpg" alt="Portfolyx" class="logo"></a>
+          </div>
+          <div>
+               <ul class="navlinks">
+                    <li><a href="adminhome">Home</a></li>
+                    <li><a href="facreg">Faculty Registration</a></li>
+                    <li><a href="viewallfacs">View All Faculties</a></li>
+                    <li><a href="deletefac">Delete Faculty</a></li>
+                    <li><a href="updatefacstatus">Update Faculty Status</a></li>
+                    <li><a href="adminlogout">Logout</a></li>
+               </ul>
+          </div>
+    </nav>
 </body>
 </html>

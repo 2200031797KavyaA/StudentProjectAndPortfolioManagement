@@ -8,6 +8,7 @@ public class StudentProjectAndPortfolioManagementApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentProjectAndPortfolioManagementApplication.class, args);
+		System.out.println("Project Running!!..");
 	}
 
 }

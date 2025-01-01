@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
     <nav id="navbar">

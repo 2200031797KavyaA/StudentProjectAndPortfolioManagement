@@ -13,6 +13,7 @@ if(fac==null)
 <html>
 <head>
     <title>Update Faculty</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
   <%@include file="facnavbar.jsp" %>
@@ -21,7 +22,7 @@ if(fac==null)
   <c:out value="${message}"></c:out>
   </h4>
   
-    <h3 style="margin-left: 300px; margin-bottom: 40px;"><u>Update Employee Profile</u></h3>
+    <h3 style="margin-left: 260px; margin-bottom: 40px;"><u>Update Employee Profile</u></h3>
     <div class="form-container" style="height: 380px;">
         <form method="post" action="updatefacprofile">
             <table>
@@ -78,8 +79,8 @@ if(fac==null)
                 </tr>
                 <tr>
                     <td colspan="2" class="button-container">
-                        <input type="submit" value="Update"/>
-                        <input type="reset" value="Clear"/>
+                        <input type="submit" value="Update" id="sub"/>
+                        <input type="reset" value="Clear" id="clea"/>
                     </td>
                 </tr>
             </table>

@@ -15,15 +15,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Upload Project</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
 
 <%@ include file="stunavbar.jsp" %> <!-- Include your navbar -->
-<div class="rig-contt">
+<div class="rig-contttt">
     <h3 style="margin-left: 300px; margin-bottom: 40px;"><u>Upload Portfolio</u></h3>
 <br>
 
-<div class="form-container"  style="height: 380px;">
+<div class="form-container"  style="height: 180px; padding-right: 40px;">
         <form method="post" action="insertportfolio" enctype="multipart/form-data">
             <table>
                         <!-- Student ID (hidden) -->
@@ -37,13 +38,13 @@
                     <td><input type="text" id="skills" name="skills" required/></td>
                 </tr>
                 <tr>
-                    <td><label for="portfolio">Upload Portfolio (PDF/Doc)</label></td>
-                    <td><input type="file" id="portfolio" name="portfolio" required/></td>
+                    <td><label for="file">Upload Portfolio (PDF/Doc)</label></td>
+                    <td><input type="file" id="file" name="file" required/></td>
                 </tr>
                 <tr>
                     <td colspan="2" class="button-container">
-                        <input type="submit" value="Upload"/>
-                        <input type="reset" value="Clear"/>
+                        <input type="submit" value="Upload" id="sub"/>
+                        <input type="reset" value="Clear" id="clea"/>
                     </td>
                 </tr>
             </table>

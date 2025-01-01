@@ -14,6 +14,7 @@ if(stu==null)
 <html>
 <head>
     <title>Update Student</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
   <%@include file="stunavbar.jsp" %>
@@ -79,8 +80,8 @@ if(stu==null)
                 </tr>
                 <tr>
                     <td colspan="2" class="button-container">
-                        <input type="submit" value="Update"/>
-                        <input type="reset" value="Clear"/>
+                        <input type="submit" value="Update" id="sub"/>
+                        <input type="reset" value="Clear" id="clea"/>
                     </td>
                 </tr>
             </table>

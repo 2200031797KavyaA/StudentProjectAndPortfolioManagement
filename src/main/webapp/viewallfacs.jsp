@@ -14,6 +14,7 @@ if(admin==null)
 <head>
     <meta charset="UTF-8">
     <title>View All Faculties</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
     <style>
            table {
             width: 100%;
@@ -50,11 +51,11 @@ if(admin==null)
 </head>
 <body>
      <%@include file="adminnavbar.jsp" %>
-     <div class="rig-contt">
+     <div class="rig-conttt">
   
-    <h3 style="margin-left: 300px; margin-bottom: 40px;"><u>View All Faculties</u></h3>
+    <h3 style="margin-left: 680px; margin-bottom: 40px;"><u>View All Faculties</u></h3>
     
-    Total Faculties=<c:out value="${faccount}"></c:out>
+    <h4 style = "text-align: center;">Total Faculties=<c:out value="${faccount}"></c:out></h4>
     
     <table>
         <tr>

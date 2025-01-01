@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Update Error</title>
+<link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
 <c:out value="${message}"></c:out>

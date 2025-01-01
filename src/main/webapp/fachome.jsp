@@ -11,6 +11,7 @@ if(fac==null)
 <head>
 <meta charset="UTF-8">
 <title>Faculty Home</title>
+<link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
 <%@include file="facnavbar.jsp" %>

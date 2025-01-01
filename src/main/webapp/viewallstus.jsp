@@ -14,6 +14,7 @@ if(admin==null)
 <head>
     <meta charset="UTF-8">
     <title>View All Students</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
     <style>
            table {
             width: 100%;
@@ -49,10 +50,11 @@ if(admin==null)
     </style>
 </head>
 <body>
-     <%@include file="adminsnavbar.jsp" %>
-    <h3 style="text-align: center;"><u>View All Students</u></h3>
+<%@include file="adminsnavbar.jsp" %>
+     <div class="rig-conttt">
+     <h3 style="margin-left: 680px; margin-bottom: 40px;"><u>View All Students</u></h3>
     
-    Total Students=<c:out value="${saccount}"></c:out>
+    <h4 style = "text-align: center;">Total Students=<c:out value="${saccount}"></c:out></h4>
     
     <table>
         <tr>
@@ -80,5 +82,6 @@ if(admin==null)
             </tr>
         </c:forEach>
     </table>
+    </div>
 </body>
 </html>

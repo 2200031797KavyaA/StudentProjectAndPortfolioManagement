@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>View Projects</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
     <style>
         #myTableContainer {
             width: 90%;
@@ -18,50 +19,41 @@
             overflow: hidden;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-
         #myTable {
             width: 100%;
             border-collapse: collapse;
             font-size: 16px;
             background-color: #ffffff;
         }
-
         #myTable th, #myTable td {
             padding: 12px 15px;
             text-align: left;
             border-bottom: 1px solid #dddddd;
         }
-
         #myTable th {
             background-color: black;
             color: white;
             font-weight: bold;
             text-align: center;
         }
-
         #myTable tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-
         #myTable tr:nth-child(odd) {
             background-color: #f2f2f2;
         }
-
         #myTable tr:hover {
-            background-color: #d1e7dd;
+            background-color: lightgrey;
         }
-
         #myInput {
             width: 100%;
             padding: 12px;
             font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            border: 0.5px solid #000000;
             margin-bottom: 20px;
             box-sizing: border-box;
         }
     </style>
-
     <script>
         function myFunction() {
             var input, filter, table, tr, td, i, txtValue;
@@ -82,19 +74,13 @@
             }
         }
     </script>
-    
 </head>
-
 <body>
-
 <%@ include file="facnavbar.jsp" %>
-<div class="rig-contt">
-<h3 align="center"><u>View All Projects Uploaded by Students</u></h3>
-
+<div class="rig-conttt">
+<h3 align="center" style="margin-bottom: 25px;"><u>View All Projects Uploaded by Students</u></h3>
 <br>
-
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Enter Project Number">
-
 <div id="myTableContainer">
     <table align="center" border="2" id="myTable">
         <tr class="header">
@@ -105,9 +91,7 @@
             <th>Project Description</th>
             <th>Project URL</th>
             <th>Feedback</th>
-            
         </tr>
-
         <c:forEach items="${projects}" var="project">
             <tr>
                 <td><c:out value="${project.student.id}"></c:out></td>
@@ -119,14 +103,12 @@
                     <a href="<c:url value='${project.url}'></c:url>" target="new">Click Here</a>
                 </td>
                  <td>
-                    <!-- Feedback form for each project -->
                     <form action="submitfeedback" method="post">
                         <input type="hidden" name="projectId" value="${project.id}" />
-                        <textarea name="feedbackText" rows="4" cols="50" placeholder="Write feedback for this project..." required></textarea><br><br>
-                        <input type="submit" value="Submit Feedback" />
+                        <textarea name="feedbackText" rows="4" cols="50" placeholder="Write feedback for this project..." required style="font-size: 16px; padding: 6px; border-radius: 12px; width: 500px;"></textarea><br><br>
+                        <input type="submit" value="Submit Feedback" id="clearr" />
                     </form>
                 </td>
-               
             </tr>
         </c:forEach>
     </table>

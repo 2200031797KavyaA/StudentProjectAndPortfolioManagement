@@ -14,6 +14,7 @@ if(admin==null)
 <head>
     <meta charset="UTF-8">
     <title>Update Faculty Status</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
     <style>
            table {
             width: 100%;
@@ -50,9 +51,9 @@ if(admin==null)
 </head>
 <body>
      <%@include file="adminnavbar.jsp" %>
-     <div class="rig-contt" style="width: 60%;">
+     <div class="rig-conttt">
   
-    <h3 style="margin-left: 300px; margin-bottom: 40px;"><u>Update Faculty Status</u></h3>
+    <h3 style="margin-left: 680px; margin-bottom: 40px;"><u>Update Faculty Status</u></h3>
     <table>
         <tr>
             <th>ID</th>

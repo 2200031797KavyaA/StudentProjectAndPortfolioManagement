@@ -13,8 +13,9 @@ if(stu==null)
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Student Home</title>
+<title>Student Profile</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
 <%@include file="stunavbar.jsp" %>
@@ -31,7 +32,7 @@ if(stu==null)
            <b>LOCATION:</b><%=stu.getLocation()%><br>
            <b>EMAIL:</b><%=stu.getEmail()%><br>
            <b>CONTACT:</b><%=stu.getContact()%><br>
-           <b>STATUS:</b><%=stu.getStatus()%><br>
+           <b>STATUS:</b><%=stu.getStatus()%>
            </pre>
 </div>
 </div>

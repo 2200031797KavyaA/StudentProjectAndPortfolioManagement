@@ -3,26 +3,24 @@
 <head>
     <title>Spring Boot</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
-    <div class="lef-cont">
-    <div class="logohome">
-       <a href="/"><img src="/images/logo.jpg" alt="Portfolyx" class="logohome"></a>
-    </div>
-    <div class="contt">
-    <br/><br/>
-    <a href="stuhome">Home</a><br/><br/><br/>
-    <a href="stuprofile">Profile</a><br/><br/><br/>
-    <a href="updatestu" style="padding-left: 40px;
-	padding-right: 40px;">Update Profile</a><br/><br/><br/>
-    <a href="addproject" style="padding-left: 50px;
-	padding-right: 50px;">Add Project</a><br><br><br> 
-	 <a href="addportfolio" style="padding-left: 50px;
-	padding-right: 50px;">Add Portfolios</a><br><br><br>
-    <a href="viewmyprojects" style="padding-left: 50px; 
-	padding-right: 50px;">My Projects</a><br/><br/><br/>
-    <a href="stulogout">Logout</a><br/><br/><br/>
-    </div>
-    </div>
+<nav id="navbar">
+          <div class="logo">
+             <a href="/"><img src="/images/logo.jpg" alt="Portfolyx" class="logo"></a>
+          </div>
+          <div>
+               <ul class="navlinks">
+                    <li><a href="stuhome">Home</a></li>
+                    <li><a href="stuprofile">Profile</a></li>
+                    <li><a href="updatestu">Update Profile</a></li>
+                    <li><a href="addproject">Add Project</a></li>
+                    <li><a href="addportfolio">Add Portfolio</a></li>
+                    <li><a href="viewmyprojects">My Projects</a></li>
+                    <li><a href="stulogout">Logout</a></li>
+               </ul>
+          </div>
+    </nav>
 </body>
 </html>

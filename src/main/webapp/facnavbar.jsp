@@ -3,26 +3,23 @@
 <head>
     <title>Faculty</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
-    <div class="lef-cont">
-    <div class="logohome">
-       <a href="/"><img src="/images/logo.jpg" alt="Portfolyx" class="logohome"></a>
-    </div>
-    <div class="contt">
-    <br/><br/>
-    <a href="fachome">Home</a><br/><br/><br/>
-    <a href="facprofile">Profile</a><br/><br/><br/>
-    <a href="updatefac" style="padding-left: 40px;
-	padding-right: 40px;">Update Profile</a><br/><br/><br/>
-	<a href="viewallprojects" style="padding-left: 26px;
-	
-	padding-right: 26px;">View All Projects</a><br/><br/><br/>
-		<a href="viewallportfolios" style="padding-left: 26px;
-		padding-right: 26px;">View All Portfolios</a><br/><br/><br/>
-	
-    <a href="faclogout">Logout</a><br/><br/><br/>
-    </div>
-    </div>
+    <nav id="navbar">
+          <div class="logo">
+             <a href="/"><img src="/images/logo.jpg" alt="Portfolyx" class="logo"></a>
+          </div>
+          <div>
+               <ul class="navlinks">
+                    <li><a href="fachome">Home</a></li>
+                    <li><a href="facprofile">Profile</a></li>
+                    <li><a href="updatefac">Update Profile</a></li>
+                    <li><a href="viewallprojects">View All Projects</a></li>
+                    <li><a href="viewallportfolios">View All Portfolios</a></li>
+                    <li><a href="faclogout">Logout</a></li>
+               </ul>
+          </div>
+    </nav>
 </body>
 </html>

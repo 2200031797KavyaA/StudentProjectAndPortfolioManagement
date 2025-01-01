@@ -7,6 +7,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Portfolyx - Home</title>
      <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
 <%@include file="mainnavbar.jsp" %>
@@ -20,7 +21,6 @@
      <button><a href="stureg">Sign up now to get started!</a></button>
      <img src="/images/clouds.webp" alt="Transparent clouds modular" class="clouds_bottom">
      <div class="gradient"></div>
-     
      <header class="head">
           <div class="about">
                <h1>About Us</h1>

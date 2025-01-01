@@ -11,10 +11,12 @@ if(admin==null)
 <html>
 <head>
     <title>Registration</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
   <%@include file="adminsnavbar.jsp" %>
-    <h3 style="text-align: center;"><u>Student Registration</u></h3>
+  <div class="rig-contt">
+    <h3 style="margin-left: 300px; margin-bottom: 40px;"><u>Student Registration</u></h3>
     <div class="form-container">
         <form method="post" action="insertstu">
             <table>
@@ -69,12 +71,13 @@ if(admin==null)
                 </tr>
                 <tr>
                     <td colspan="2" class="button-container">
-                        <input type="submit" value="Register"/>
-                        <input type="reset" value="Clear"/>
+                        <input type="submit" value="Register" id="sub"/>
+                        <input type="reset" value="Clear" id="clea"/>
                     </td>
                 </tr>
             </table>
         </form>
+    </div>
     </div>
 </body>
 </html>

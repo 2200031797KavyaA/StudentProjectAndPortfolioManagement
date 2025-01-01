@@ -14,6 +14,7 @@ if(admin==null)
 <head>
     <meta charset="UTF-8">
     <title>Update Student Status</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
     <style>
            table {
             width: 100%;
@@ -50,7 +51,8 @@ if(admin==null)
 </head>
 <body>
      <%@include file="adminsnavbar.jsp" %>
-    <h3 style="text-align: center;"><u>Update Student Status</u></h3>
+     <div class="rig-conttt">
+    <h3 style="margin-left: 680px; margin-bottom: 40px;"><u>Update Student Status</u></h3>
     <table>
         <tr>
             <th>ID</th>
@@ -86,5 +88,6 @@ if(admin==null)
             </tr>
         </c:forEach>
     </table>
+    </div>
 </body>
 </html>

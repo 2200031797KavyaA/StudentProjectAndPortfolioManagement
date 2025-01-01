@@ -16,6 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Projects</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -62,7 +63,7 @@
 </head>
 <body>
     <%@ include file="stunavbar.jsp" %> <!-- Include the navbar -->
-    <div class="rig-contt">
+    <div class="rig-conttt">
     <h3 style="text-align: center; margin: 30px;"><u>My Projects</u></h3>
     <table>
     <tr>

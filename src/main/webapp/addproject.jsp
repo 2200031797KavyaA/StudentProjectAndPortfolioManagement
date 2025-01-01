@@ -15,15 +15,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Upload Project</title>
+    <link rel="icon" href="/images/PLogo.png" type="image/x-icon" />
 </head>
 <body>
 
 <%@ include file="stunavbar.jsp" %> <!-- Include your navbar -->
-<div class="rig-contt">
+<div class="rig-contttt">
     <h3 style="margin-left: 300px; margin-bottom: 40px;"><u>Upload Project</u></h3>
 <br>
 
-<form action="uploadproject" method="post" class="form-container" style="height: 380px;">
+<form action="uploadproject" method="post" class="form-container" style="height: 250px;">
 
     <table align="center">
         <!-- Student ID (hidden) -->
@@ -74,7 +75,7 @@
         <tr><td></td></tr>
         <tr><td></td></tr>
         <tr align="center">
-            <td colspan="2"><input type="submit" value="Upload Project" class="button" /></td>
+            <td colspan="2"><input type="submit" value="Upload Project" class="button" id="clearrr"/></td>
         </tr>
     </table>
 
