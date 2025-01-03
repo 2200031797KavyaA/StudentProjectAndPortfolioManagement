@@ -67,6 +67,6 @@ That's it! You've successfully set up and launched Portfolyx on your local syste
 
 **Output Video:**
 
-Please watch the video at 0.5 for your convenience.
+Please watch the video at 0.5x for your convenience.
 
 https://github.com/user-attachments/assets/ab824a9a-f5b4-4667-a4ec-a0cc6d0d7379
