@@ -1,3 +1,3 @@
-# StudentProjectAndPortfolioManagement
+# Portfolyx - The one-stop Student Project And Portfolio Management System
 
-**Check "MASTER" Branch for the full project, it's overview, how to run, along with the output video. Enjoyy!**
+**Check the "MASTER" Branch for the full project, its overview, how to run it, and the output video. Enjoyy!**
