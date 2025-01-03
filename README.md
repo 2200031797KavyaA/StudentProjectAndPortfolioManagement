@@ -66,3 +66,5 @@ This project leverages Spring Boot for the backend, MySQL for database managemen
 That's it! You've successfully set up and launched Portfolyx on your local system.
 
 **Output Video:**
+
+https://github.com/user-attachments/assets/88f901ed-441d-45d1-96d3-82c2e42e6fa7
